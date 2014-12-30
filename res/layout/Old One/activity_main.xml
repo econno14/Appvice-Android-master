@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="hello" />
+
+</LinearLayout>
+
+
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.view.ViewPager
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout 
+        android:id="@+id/first_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" >
+        
+        <fragment
+            android:id="@+id/f1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.missedops.mainfragments.AskFragment" />
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/second_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/first_layout" >
+        
+        <fragment
+            android:id="@+id/f2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.missedops.mainfragments.PQListFragment" />
+    </RelativeLayout>
+    
+</android.support.v4.view.ViewPager> -->
